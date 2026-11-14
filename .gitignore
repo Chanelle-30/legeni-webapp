@@ -1,0 +1,56 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Tests & couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ============================================================
+# Secrets — JAMAIS commités
+# ============================================================
+*.vault-pass
+vault-pass*
+.env
+.env.*
+!.env.example
+kubeconfig*.yml
+kubeconfig*.yaml
+*.pem
+*.key
+id_rsa*
+
+# ============================================================
+# Archive du travail hors-sujet (voir _legacy/)
+# ============================================================
+_legacy/
+
+# ============================================================
+# Divers
+# ============================================================
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
